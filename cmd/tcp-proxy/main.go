@@ -70,11 +70,7 @@ func main() {
 	for {
 		conn, _ := listener.AcceptTCP()
 
-    fmt.Print("==================new connection==============================")
     clientIp := utils.RemoteIpConn(conn)
-
-    fmt.Print("==================new connection==============================")
-
 
 		if utils.CheckIpAccess(clientIp, "1248") == false {
 			go utils.ResponseHandle(conn)
