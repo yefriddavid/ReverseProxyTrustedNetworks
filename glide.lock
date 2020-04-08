@@ -1,0 +1,18 @@
+hash: 9fe7cda636aff725d4e15d64093716decf71aa0082b28857bcb202c017623a38
+updated: 2020-04-08T11:11:41.59566855-03:00
+imports:
+- name: github.com/jpillora/go-tcp-proxy
+  version: 8edef3bfd9b8ba0cf7231bf1df3a2c025886a818
+- name: github.com/mattn/go-colorable
+  version: 4e32bdb9fe4eefa9b10cb112e44debf77784ff7a
+- name: github.com/mattn/go-isatty
+  version: cb30d6282491c185f77d9bec5d25de1bb61a06bc
+- name: github.com/mgutz/ansi
+  version: 9520e82c474b0a04dd04f8a40959027271bab992
+- name: github.com/tomasen/realip
+  version: f0c99a92ddcedd3964a269d23c8e89d9a9229be6
+- name: golang.org/x/sys
+  version: 5766fd39f98ddd8d769ad4aedcee557dd28de90f
+  subpackages:
+  - unix
+testImports: []

@@ -1,0 +1,5 @@
+package: github.com/yefriddavid/go-tcp-proxy
+import:
+- package: github.com/jpillora/go-tcp-proxy
+  version: v1.0.0
+- package: github.com/mgutz/ansi
