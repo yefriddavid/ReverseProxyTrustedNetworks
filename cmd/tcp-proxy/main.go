@@ -11,8 +11,9 @@ import (
 	"strings"
 	"time"
 
-	tcpProxy "github.com/jpillora/go-tcp-proxy"
-	utils "github.com/jpillora/go-tcp-proxy/utils"
+	// tcpProxy "github.com/yefriddavid/go-tcp-proxy"
+	tcpProxy "github.com/yefriddavid/ReverseProxyTrustedNetworks"
+	utils "github.com/yefriddavid/ReverseProxyTrustedNetworks/utils"
 )
 
 var (
